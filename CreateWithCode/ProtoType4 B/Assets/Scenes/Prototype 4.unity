@@ -230,6 +230,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 5484863223972118231, guid: 6a063f7c4950e9e43bc262e2c5cebd84, type: 3}
+  enemyCount: 0
+  waveNumber: 1
+  powerupPrefab: {fileID: 6567164134785966366, guid: 59d5c49f52f067e41af0837fe2178a3d, type: 3}
 --- !u!4 &320735373
 Transform:
   m_ObjectHideFlags: 0
@@ -353,7 +356,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 435759742}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.56, y: 0, z: -5.57}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -374,6 +377,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   hasPowerUp: 0
+  powerupIndicator: {fileID: 6567164134785966366, guid: 59d5c49f52f067e41af0837fe2178a3d, type: 3}
 --- !u!1 &1211016355
 GameObject:
   m_ObjectHideFlags: 0
